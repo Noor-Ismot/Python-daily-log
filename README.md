@@ -15,7 +15,7 @@ Summary:
 - The pass statement serves as a placeholder for future code, allowing you to define empty blocks without causing syntax errors.
 
 # LEARN PYTHON : DAY 2
-Topics: Data Structures - Lists
+Topics: Data Structures - Lists [Part 1]
 - Lists are ordered, mutable (changeable), and allow duplicate values.
 - Lists are defined using square brackets [].
 - You can access list items using their index, and you can also use slicing to access a range of items.
@@ -23,3 +23,12 @@ Topics: Data Structures - Lists
 - You can change list items by specifying the index or a range of indices.
 - You can sort and reverse lists using sort() and reverse() methods.
 - You can check if an item exists in a list using the 'in' keyword.
+
+# LEARN PYTHON : DAY 3
+Topics: Data Structures - Lists [Part 2]
+- Looping through a list using for loop with and without range function.
+- Looping through a list using while loop.
+- Looping through a list using list comprehension.
+- Copying a list using copy() method.
+- Joining two lists using + operator and extend() method.
+- Removing list items using remove(), pop(), del keyword, and clear() method.
