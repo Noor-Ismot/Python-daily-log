@@ -32,3 +32,13 @@ Topics: Data Structures - Lists [Part 2]
 - Copying a list using copy() method.
 - Joining two lists using + operator and extend() method.
 - Removing list items using remove(), pop(), del keyword, and clear() method.
+
+# LEARN PYTHON : DAY 4
+Topics: Range function and Loops [For Loop, While Loop with break, continue, else, pass statements]
+- The range() function generates a sequence of numbers, which can be customized using start, stop, and step parameters.
+- For loops are used to iterate over sequences such as lists, strings, and more, without needing an indexing variable.
+- The break statement can be used in loops to exit the loop prematurely when a certain condition is met.
+- The continue statement allows skipping the current iteration of a loop and moving to the next iteration.
+- The else clause in loops executes a block of code when the loop completes normally, but not if it is terminated by a break statement.
+- While loops execute a block of code as long as a specified condition is true, and require careful management of loop counters to avoid infinite loops.
+- The pass statement can be used as a placeholder in loops to avoid syntax errors when no action is needed.
