@@ -1,7 +1,7 @@
 # Python-daily-log
 Daily Python practice covering fundamentals, problem-solving, automation, and mini-projects, tracked to build strong programming foundations.
 
-# LEARN PYTHON - DAY 1 - Data Types, conditions
+# LEARN PYTHON - DAY 1 - Data Types, Conditions
 Topics: Variables, Data Type, Type Casting, Output, Comments, Conditions, Logical Operators, Nested if, Pass statement
 Summary:
 - Variables are used to store data values and can be created by assigning a value using the equals sign (=).
@@ -14,7 +14,7 @@ Summary:
 - Nested if statements enable you to check conditions within other conditions.
 - The pass statement serves as a placeholder for future code, allowing you to define empty blocks without causing syntax errors.
 
-# LEARN PYTHON : DAY 2 - List
+# LEARN PYTHON : DAY 2 - List part 1
 Topics: Data Structures - Lists [Part 1]
 - Lists are ordered, mutable (changeable), and allow duplicate values.
 - Lists are defined using square brackets [].
@@ -24,7 +24,7 @@ Topics: Data Structures - Lists [Part 1]
 - You can sort and reverse lists using sort() and reverse() methods.
 - You can check if an item exists in a list using the 'in' keyword.
 
-# LEARN PYTHON : DAY 3 - List
+# LEARN PYTHON : DAY 3 - List Part 2
 Topics: Data Structures - Lists [Part 2]
 - Looping through a list using for loop with and without range function.
 - Looping through a list using while loop.
@@ -59,3 +59,13 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - The pass statement can be used in functions to create empty function bodies.
 - *args allows passing a variable number of positional arguments to functions.
 - **kwargs allows passing a variable number of keyword arguments to functions.
+
+# LEARN PYTHON : DAY 6 - Tuple
+- Tuples are ordered, unchangeable, and allow duplicate values.
+- Tuples are defined with round brackets ().
+- Access tuple items using indexing and slicing.
+- Tuples are immutable; to update, convert to a list, modify, and convert back.
+- Unpack tuples into variables, using * for excess items.
+- Loop through tuples using for loops.
+- Join tuples using the + operator and multiply using *.
+- Tuple methods: count() and index().
