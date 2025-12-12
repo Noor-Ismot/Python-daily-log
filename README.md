@@ -1,7 +1,7 @@
 # Python-daily-log
 Daily Python practice covering fundamentals, problem-solving, automation, and mini-projects, tracked to build strong programming foundations.
 
-# LEARN PYTHON : DAY 1
+# LEARN PYTHON - DAY 1 - Data Types, conditions
 Topics: Variables, Data Type, Type Casting, Output, Comments, Conditions, Logical Operators, Nested if, Pass statement
 Summary:
 - Variables are used to store data values and can be created by assigning a value using the equals sign (=).
@@ -14,7 +14,7 @@ Summary:
 - Nested if statements enable you to check conditions within other conditions.
 - The pass statement serves as a placeholder for future code, allowing you to define empty blocks without causing syntax errors.
 
-# LEARN PYTHON : DAY 2
+# LEARN PYTHON : DAY 2 - List
 Topics: Data Structures - Lists [Part 1]
 - Lists are ordered, mutable (changeable), and allow duplicate values.
 - Lists are defined using square brackets [].
@@ -24,7 +24,7 @@ Topics: Data Structures - Lists [Part 1]
 - You can sort and reverse lists using sort() and reverse() methods.
 - You can check if an item exists in a list using the 'in' keyword.
 
-# LEARN PYTHON : DAY 3
+# LEARN PYTHON : DAY 3 - List
 Topics: Data Structures - Lists [Part 2]
 - Looping through a list using for loop with and without range function.
 - Looping through a list using while loop.
@@ -33,7 +33,7 @@ Topics: Data Structures - Lists [Part 2]
 - Joining two lists using + operator and extend() method.
 - Removing list items using remove(), pop(), del keyword, and clear() method.
 
-# LEARN PYTHON : DAY 4
+# LEARN PYTHON : DAY 4 - Loops
 Topics: Range function and Loops [For Loop, While Loop with break, continue, else, pass statements]
 - The range() function generates a sequence of numbers, which can be customized using start, stop, and step parameters.
 - For loops are used to iterate over sequences such as lists, strings, and more, without needing an indexing variable.
@@ -42,3 +42,20 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - The else clause in loops executes a block of code when the loop completes normally, but not if it is terminated by a break statement.
 - While loops execute a block of code as long as a specified condition is true, and require careful management of loop counters to avoid infinite loops.
 - The pass statement can be used as a placeholder in loops to avoid syntax errors when no action is needed.
+
+# LEARN PYTHON : DAY 5 - Function
+- Functions are blocks of code that run when called and can return data.
+- Functions help avoid code repetition.
+- Functions can return data using the return statement.
+- If a function lacks a return statement, it returns None by default.
+- The pass statement allows creating function placeholders without code.    
+- Functions can accept arguments to customize their behavior.
+- Default parameter values allow functions to have optional arguments.
+- Keyword arguments enable passing arguments by name for clarity.
+- Python follows the LEGB rule for variable name lookup: Local, Enclosing, Global, Built-in.
+- Variable scope determines where variables can be accessed within functions.
+- The global keyword allows modifying global variables within functions.
+- Functions can return values to the calling code.
+- The pass statement can be used in functions to create empty function bodies.
+- *args allows passing a variable number of positional arguments to functions.
+- **kwargs allows passing a variable number of keyword arguments to functions.
