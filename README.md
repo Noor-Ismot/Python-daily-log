@@ -69,3 +69,14 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Loop through tuples using for loops.
 - Join tuples using the + operator and multiply using *.
 - Tuple methods: count() and index().
+
+# LEARN PYTHON : DAY 7 - Dictionary
+- A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+- Dictionaries are written with curly brackets, and have keys and values.
+- Defining a dictionary using curly braces {}.
+- Accessing dictionary values using key names or get() method.
+- Adding new items or updating existing items in a dictionary.
+- Checking if a key exists in a dictionary.
+- Removing items from a dictionary using pop(), popitem(), del, and clear() methods.
+- Copying a dictionary using copy() method and dict() function.
+- Looping through a dictionary to access keys, values, and key-value pairs.
