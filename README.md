@@ -80,3 +80,12 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Removing items from a dictionary using pop(), popitem(), del, and clear() methods.
 - Copying a dictionary using copy() method and dict() function.
 - Looping through a dictionary to access keys, values, and key-value pairs.
+
+# LEARN PYTHON : DAY 8 - String
+- Defined strings using single, double, and triple quotes.
+- Accessed string characters using indexing and slicing.
+- Modified strings using methods like upper(), replace().
+- Explored various string methods: find(), count(), isalnum(), startswith(), endswith(), split(), strip(), join(), capitalize(), title(), swapcase(), isnumeric(), isalpha(), islower(), isupper(), index().
+- String concatenation using + operator.
+- String formatting using f-strings and format() method.
+- Strings are immutable and ordered collections of characters.
