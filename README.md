@@ -89,3 +89,12 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - String concatenation using + operator.
 - String formatting using f-strings and format() method.
 - Strings are immutable and ordered collections of characters.
+
+# LEARN PYTHON : DAY 9 - Set
+- Defining Set using curly braces {}
+- Accessing Set items using loops and 'in' keyword
+- Adding items using add() and update() methods
+- Removing items using remove(), discard(), pop() methods
+- Frozen Set as immutable set
+- Joining Sets using union(), intersection(), difference(), symmetric_difference() methods and operators
+- Set operations: union, intersection, difference, symmetric difference
