@@ -98,3 +98,8 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Frozen Set as immutable set
 - Joining Sets using union(), intersection(), difference(), symmetric_difference() methods and operators
 - Set operations: union, intersection, difference, symmetric difference
+
+# LEARN PYTHON : DAY 10 - File
+- Learned how to handle files in Python using the open() function with different modes such as read, append, write, and create.
+- Understood how to read from files using methods like read() and readlines(), and how to loop through file content.
+- Practiced writing to files using append and write modes, and observed the differences in behavior between them.
