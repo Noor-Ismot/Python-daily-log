@@ -103,3 +103,6 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Learned how to handle files in Python using the open() function with different modes such as read, append, write, and create.
 - Understood how to read from files using methods like read() and readlines(), and how to loop through file content.
 - Practiced writing to files using append and write modes, and observed the differences in behavior between them.
+
+# LEARN PYTHON : DAY 11 - Problem Solving
+- Topics: Input, Output, Comments 
