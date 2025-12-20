@@ -111,106 +111,105 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Topics: Loops, Conditions
 - Learned how to use loops effectively to solve various problems, including counting, summing, generating multiplication tables, reversing numbers, checking for palindromes, and calculating factorials. I also learned how to handle negative numbers and leading zeros in string manipulations.
 
-1. Goal: Print numbers from 1 to N. \
-Input: integer N
-Output: numbers from 1 to N (one per line)
-Constraints: N ≥ 1
+1. Goal: Print numbers from 1 to N.<br> 
+Input: integer N<br>
+Output: numbers from 1 to N (one per line)<br>
+Constraints: N ≥ 1<br>
 
-Test cases:
-5 → 1 2 3 4 5
-1 → 1
-3 → 1 2 3
+Test cases:<br>
+5 → 1 2 3 4 5<br>
+1 → 1<br>
+3 → 1 2 3<br>
 
-2. Goal: Print all even numbers between 1 and N.
+2. Goal: Print all even numbers between 1 and N.<br>
+Input: integer N<br>
+Output: even numbers ≤ N<br>
+Constraints:N ≥ 2<br>
 
-Input: integer N
-Output: even numbers ≤ N
-Constraints:N ≥ 2
-
-Test cases:
-10 → 2 4 6 8 10
-5 → 2 4
+Test cases:<br>
+10 → 2 4 6 8 10<br>
+5 → 2 4<br>
 2 → 2
 
-3. Goal: Calculate the sum of numbers from 1 to N.
-Input: integer N
-Output: integer sum
+3. Goal: Calculate the sum of numbers from 1 to N.<br>
+Input: integer N<br>
+Output: integer sum<br>
 Constraints:N ≥ 1
 
-Test cases:
-5 → 15
-1 → 1
+Test cases:<br>
+5 → 15<br>
+1 → 1<br>
 10 → 55
 
 
-4. Goal: Print multiplication table of a number up to 10.
+4. Goal: Print multiplication table of a number up to 10.<br>
 Input: integer N
 Output: N x i = result for i = 1..10
 Constraints: N between 1 and 20
 
-Test cases:
+Test cases:<br>
 3 → 3 x 1 = 3 ... 3 x 10 = 30
 5 → ...
 
-5. Goal: Count digits in a number.
-Input: integer
-Output: number of digits
+5. Goal: Count digits in a number.<br>
+Input: integer<br>
+Output: number of digits<br>
 Constraints: Negative numbers allowed
 
-Test cases:
-123 → 3
-0 → 1
+Test cases:<br>
+123 → 3<br>
+0 → 1<br>
 -4567 → 4
 
 Bias trap: Strings make this trivial — don’t use them.
 
-6. Goal: Reverse a number.
-Input: integer
-Output: reversed integer
+6. Goal: Reverse a number.<br>
+Input: integer<br>
+Output: reversed integer<br>
 Constraints: No string conversion
 
-Test cases:
-123 → 321
-100 → 1
--456 → -654
+Test cases:<br>
+123 → 321<br>
+100 → 1<br>
+-456 → -654<br>
 
-7. Goal: Check if a number is a palindrome.
-Input: integer
-Output: "Palindrome" or "Not Palindrome"
+7. Goal: Check if a number is a palindrome.<br>
+Input: integer<br>
+Output: "Palindrome" or "Not Palindrome"<br>
 Constraints:No string usage
 
-Test cases:
-121 → Palindrome
-123 → Not Palindrome
+Test cases:<br>
+121 → Palindrome<br>
+123 → Not Palindrome<br>
 0 → Palindrome
 
-8. Goal: Find factorial of a number.
-Input: integer N
-Output: factorial value
+8. Goal: Find factorial of a number.<br>
+Input: integer N<br>
+Output: factorial value<br>
 Constraints:N ≥ 0
 
-Test cases:
-5 → 120
-0 → 1
+Test cases:<br>
+5 → 120<br>
+0 → 1<br>
 3 → 6
 
 9. Goal: Print Fibonacci sequence up to N terms.
-Input: integer N
-Output: first N Fibonacci numbers
-Constraints:N ≥ 1
+Input: integer N<br>
+Output: first N Fibonacci numbers<br>
+Constraints:N ≥ 1<br>
 
-Test cases:
-5 → 0 1 1 2 3
-1 → 0
+Test cases:<br>
+5 → 0 1 1 2 3<br>
+1 → 0<br>
 2 → 0 1
 
 10. Goal: Find sum of digits of a number.
-Input: integer
-Output: sum of digits
-Constraints:No string conversion
+Input: integer<br>
+Output: sum of digits<br>
+Constraints:No string conversion<br>
 
-Test cases:
-123 → 6
-0 → 0
+Test cases:<br>
+123 → 6<br>
+0 → 0<br>
 -456 → 15
 
