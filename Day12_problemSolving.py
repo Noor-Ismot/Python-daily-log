@@ -1,5 +1,5 @@
 #Problem Solving: Loops (10 Problems)
-#Date: 20 December 2025
+#Date: 19-20 December 2025
 #Learned how to use loops effectively to solve various problems, including counting, summing, generating multiplication tables, reversing numbers, checking for palindromes, and calculating factorials. I also learned how to handle negative numbers and leading zeros in string manipulations.
 
 #My Solution: Problem 1 ------------------------------------------
