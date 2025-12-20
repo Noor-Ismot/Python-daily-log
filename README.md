@@ -104,5 +104,113 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Understood how to read from files using methods like read() and readlines(), and how to loop through file content.
 - Practiced writing to files using append and write modes, and observed the differences in behavior between them.
 
-# LEARN PYTHON : DAY 11 - Problem Solving
+# LEARN PYTHON : DAY 11 - Problem Solving [Part 1]
 - Topics: Input, Output, Comments 
+
+# LEARN PYTHON : DAY 12 - Problem Solving [Part 2]
+- Topics: Loops, Conditions
+- Learned how to use loops effectively to solve various problems, including counting, summing, generating multiplication tables, reversing numbers, checking for palindromes, and calculating factorials. I also learned how to handle negative numbers and leading zeros in string manipulations.
+
+1. Goal: Print numbers from 1 to N.
+Input: integer N
+Output: numbers from 1 to N (one per line)
+Constraints: N ≥ 1
+
+Test cases:
+5 → 1 2 3 4 5
+1 → 1
+3 → 1 2 3
+
+2. Goal: Print all even numbers between 1 and N.
+
+Input: integer N
+Output: even numbers ≤ N
+Constraints:N ≥ 2
+
+Test cases:
+10 → 2 4 6 8 10
+5 → 2 4
+2 → 2
+
+3. Goal: Calculate the sum of numbers from 1 to N.
+Input: integer N
+Output: integer sum
+Constraints:N ≥ 1
+
+Test cases:
+5 → 15
+1 → 1
+10 → 55
+
+
+4. Goal: Print multiplication table of a number up to 10.
+Input: integer N
+Output: N x i = result for i = 1..10
+Constraints: N between 1 and 20
+
+Test cases:
+3 → 3 x 1 = 3 ... 3 x 10 = 30
+5 → ...
+
+5. Goal: Count digits in a number.
+Input: integer
+Output: number of digits
+Constraints: Negative numbers allowed
+
+Test cases:
+123 → 3
+0 → 1
+-4567 → 4
+
+Bias trap: Strings make this trivial — don’t use them.
+
+6. Goal: Reverse a number.
+Input: integer
+Output: reversed integer
+Constraints: No string conversion
+
+Test cases:
+123 → 321
+100 → 1
+-456 → -654
+
+7. Goal: Check if a number is a palindrome.
+Input: integer
+Output: "Palindrome" or "Not Palindrome"
+Constraints:No string usage
+
+Test cases:
+121 → Palindrome
+123 → Not Palindrome
+0 → Palindrome
+
+8. Goal: Find factorial of a number.
+Input: integer N
+Output: factorial value
+Constraints:N ≥ 0
+
+Test cases:
+5 → 120
+0 → 1
+3 → 6
+
+9. Goal: Print Fibonacci sequence up to N terms.
+Input: integer N
+Output: first N Fibonacci numbers
+Constraints:N ≥ 1
+
+Test cases:
+5 → 0 1 1 2 3
+1 → 0
+2 → 0 1
+
+10. Goal: Find sum of digits of a number.
+Input: integer
+Output: sum of digits
+Constraints:No string conversion
+
+Test cases:
+123 → 6
+0 → 0
+-456 → 15
+
