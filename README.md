@@ -111,7 +111,7 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Topics: Loops, Conditions
 - Learned how to use loops effectively to solve various problems, including counting, summing, generating multiplication tables, reversing numbers, checking for palindromes, and calculating factorials. I also learned how to handle negative numbers and leading zeros in string manipulations.
 
-1. Goal: Print numbers from 1 to N.
+1. Goal: Print numbers from 1 to N. \
 Input: integer N
 Output: numbers from 1 to N (one per line)
 Constraints: N ≥ 1
