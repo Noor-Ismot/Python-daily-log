@@ -143,12 +143,12 @@ Test cases:<br>
 
 
 4. Goal: Print multiplication table of a number up to 10.<br>
-Input: integer N
-Output: N x i = result for i = 1..10
+Input: integer N<br>
+Output: N x i = result for i = 1..10<br>
 Constraints: N between 1 and 20
 
 Test cases:<br>
-3 → 3 x 1 = 3 ... 3 x 10 = 30
+3 → 3 x 1 = 3 ... 3 x 10 = 30<br>
 5 → ...
 
 5. Goal: Count digits in a number.<br>
@@ -160,8 +160,6 @@ Test cases:<br>
 123 → 3<br>
 0 → 1<br>
 -4567 → 4
-
-Bias trap: Strings make this trivial — don’t use them.
 
 6. Goal: Reverse a number.<br>
 Input: integer<br>
