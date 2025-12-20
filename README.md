@@ -111,7 +111,7 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Topics: Loops, Conditions
 - Learned how to use loops effectively to solve various problems, including counting, summing, generating multiplication tables, reversing numbers, checking for palindromes, and calculating factorials. I also learned how to handle negative numbers and leading zeros in string manipulations.
 
-1. Goal: Print numbers from 1 to N.<br> 
+P1. Goal: Print numbers from 1 to N.<br> 
 Input: integer N<br>
 Output: numbers from 1 to N (one per line)<br>
 Constraints: N ≥ 1<br>
@@ -121,7 +121,7 @@ Test cases:<br>
 1 → 1<br>
 3 → 1 2 3<br>
 
-2. Goal: Print all even numbers between 1 and N.<br>
+P2. Goal: Print all even numbers between 1 and N.<br>
 Input: integer N<br>
 Output: even numbers ≤ N<br>
 Constraints:N ≥ 2<br>
@@ -131,7 +131,7 @@ Test cases:<br>
 5 → 2 4<br>
 2 → 2
 
-3. Goal: Calculate the sum of numbers from 1 to N.<br>
+P3. Goal: Calculate the sum of numbers from 1 to N.<br>
 Input: integer N<br>
 Output: integer sum<br>
 Constraints:N ≥ 1
@@ -142,7 +142,7 @@ Test cases:<br>
 10 → 55
 
 
-4. Goal: Print multiplication table of a number up to 10.<br>
+P4. Goal: Print multiplication table of a number up to 10.<br>
 Input: integer N<br>
 Output: N x i = result for i = 1..10<br>
 Constraints: N between 1 and 20
@@ -151,7 +151,7 @@ Test cases:<br>
 3 → 3 x 1 = 3 ... 3 x 10 = 30<br>
 5 → ...
 
-5. Goal: Count digits in a number.<br>
+P5. Goal: Count digits in a number.<br>
 Input: integer<br>
 Output: number of digits<br>
 Constraints: Negative numbers allowed
@@ -161,7 +161,7 @@ Test cases:<br>
 0 → 1<br>
 -4567 → 4
 
-6. Goal: Reverse a number.<br>
+P6. Goal: Reverse a number.<br>
 Input: integer<br>
 Output: reversed integer<br>
 Constraints: No string conversion
@@ -171,7 +171,7 @@ Test cases:<br>
 100 → 1<br>
 -456 → -654<br>
 
-7. Goal: Check if a number is a palindrome.<br>
+P7. Goal: Check if a number is a palindrome.<br>
 Input: integer<br>
 Output: "Palindrome" or "Not Palindrome"<br>
 Constraints:No string usage
@@ -181,7 +181,7 @@ Test cases:<br>
 123 → Not Palindrome<br>
 0 → Palindrome
 
-8. Goal: Find factorial of a number.<br>
+P8. Goal: Find factorial of a number.<br>
 Input: integer N<br>
 Output: factorial value<br>
 Constraints:N ≥ 0
@@ -191,7 +191,7 @@ Test cases:<br>
 0 → 1<br>
 3 → 6
 
-9. Goal: Print Fibonacci sequence up to N terms.
+P9. Goal: Print Fibonacci sequence up to N terms.
 Input: integer N<br>
 Output: first N Fibonacci numbers<br>
 Constraints:N ≥ 1<br>
@@ -201,7 +201,7 @@ Test cases:<br>
 1 → 0<br>
 2 → 0 1
 
-10. Goal: Find sum of digits of a number.
+P10. Goal: Find sum of digits of a number.
 Input: integer<br>
 Output: sum of digits<br>
 Constraints:No string conversion<br>
