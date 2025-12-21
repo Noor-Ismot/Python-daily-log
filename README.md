@@ -211,3 +211,5 @@ Test cases:<br>
 0 → 0<br>
 -456 → 15
 
+# LEARN PYTHON : DAY 13 - Project: Personal Expense Tracker
+- A personal expense tracker application that allows users to add expenses with details such as amount, category, and description. The application calculates and displays the total expenses incurred and further enhanced to provide category-wise expense summaries.
