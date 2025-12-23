@@ -216,3 +216,8 @@ Test cases:<br>
 
 # LEARN PYTHON : DAY 14 - Project: Slot Machine Game
 - A slot machine game implemented in Python using functions, loops, and conditional statements. The game allows users to deposit money, place bets on lines, spin the reels, and win based on matching symbols.
+Learning Objectives:
+- Practice functions and modular code
+- Practice loops and conditionals
+- Understand randomization
+- Understand basic game mechanics
