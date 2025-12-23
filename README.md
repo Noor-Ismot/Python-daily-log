@@ -213,3 +213,6 @@ Test cases:<br>
 
 # LEARN PYTHON : DAY 13 - Project: Personal Expense Tracker
 - A personal expense tracker application that allows users to add expenses with details such as amount, category, and description. The application calculates and displays the total expenses incurred and further enhanced to provide category-wise expense summaries.
+
+# LEARN PYTHON : DAY 14 - Project: Slot Machine Game
+- A slot machine game implemented in Python using functions, loops, and conditional statements. The game allows users to deposit money, place bets on lines, spin the reels, and win based on matching symbols.
