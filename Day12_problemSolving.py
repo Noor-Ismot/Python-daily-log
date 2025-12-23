@@ -143,3 +143,38 @@ for i in range(1,int(user_input)+1):
 print(fac_num)
 
 
+
+#My Solution: Problem 9: ------------------------------------------
+n = int(input("Enter the number of terms: "))
+
+if n <= 0:
+    print([])
+elif n == 1:
+    print([0])
+else:
+    fib = [0, 1]
+    for _ in range(n - 2):
+        fib.append(fib[-1] + fib[-2])
+    print(fib)
+
+
+
+#My Solution: Problem 10: ------------------------------------------
+num = int(input("Enter the number: "))
+num = abs(num)
+
+digit_sum = 0
+
+while num > 0:
+    print(num)
+    digit_sum += num % 10
+    num //= 10
+    print(num)
+
+print(digit_sum)
+
+
+    
+
+
+
