@@ -1,7 +1,7 @@
 # Python-daily-log
 Daily Python practice covering fundamentals, problem-solving, automation, and mini-projects, tracked to build strong programming foundations.
 
-# LEARN PYTHON - DAY 1 - Data Types, Conditions
+# DAY 1 - Data Types, Conditions
 Topics: Variables, Data Type, Type Casting, Output, Comments, Conditions, Logical Operators, Nested if, Pass statement
 Summary:
 - Variables are used to store data values and can be created by assigning a value using the equals sign (=).
@@ -14,7 +14,7 @@ Summary:
 - Nested if statements enable you to check conditions within other conditions.
 - The pass statement serves as a placeholder for future code, allowing you to define empty blocks without causing syntax errors.
 
-# LEARN PYTHON : DAY 2 - List part 1
+# DAY 2 - List part 1
 Topics: Data Structures - Lists [Part 1]
 - Lists are ordered, mutable (changeable), and allow duplicate values.
 - Lists are defined using square brackets [].
@@ -24,7 +24,7 @@ Topics: Data Structures - Lists [Part 1]
 - You can sort and reverse lists using sort() and reverse() methods.
 - You can check if an item exists in a list using the 'in' keyword.
 
-# LEARN PYTHON : DAY 3 - List Part 2
+# DAY 3 - List Part 2
 Topics: Data Structures - Lists [Part 2]
 - Looping through a list using for loop with and without range function.
 - Looping through a list using while loop.
@@ -33,7 +33,7 @@ Topics: Data Structures - Lists [Part 2]
 - Joining two lists using + operator and extend() method.
 - Removing list items using remove(), pop(), del keyword, and clear() method.
 
-# LEARN PYTHON : DAY 4 - Loops
+# DAY 4 - Loops
 Topics: Range function and Loops [For Loop, While Loop with break, continue, else, pass statements]
 - The range() function generates a sequence of numbers, which can be customized using start, stop, and step parameters.
 - For loops are used to iterate over sequences such as lists, strings, and more, without needing an indexing variable.
@@ -43,7 +43,7 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - While loops execute a block of code as long as a specified condition is true, and require careful management of loop counters to avoid infinite loops.
 - The pass statement can be used as a placeholder in loops to avoid syntax errors when no action is needed.
 
-# LEARN PYTHON : DAY 5 - Function
+# DAY 5 - Function
 - Functions are blocks of code that run when called and can return data.
 - Functions help avoid code repetition.
 - Functions can return data using the return statement.
@@ -60,7 +60,7 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - *args allows passing a variable number of positional arguments to functions.
 - **kwargs allows passing a variable number of keyword arguments to functions.
 
-# LEARN PYTHON : DAY 6 - Tuple
+# DAY 6 - Tuple
 - Tuples are ordered, unchangeable, and allow duplicate values.
 - Tuples are defined with round brackets ().
 - Access tuple items using indexing and slicing.
@@ -70,7 +70,7 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Join tuples using the + operator and multiply using *.
 - Tuple methods: count() and index().
 
-# LEARN PYTHON : DAY 7 - Dictionary
+# DAY 7 - Dictionary
 - A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
 - Dictionaries are written with curly brackets, and have keys and values.
 - Defining a dictionary using curly braces {}.
@@ -81,7 +81,7 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Copying a dictionary using copy() method and dict() function.
 - Looping through a dictionary to access keys, values, and key-value pairs.
 
-# LEARN PYTHON : DAY 8 - String
+# DAY 8 - String
 - Defined strings using single, double, and triple quotes.
 - Accessed string characters using indexing and slicing.
 - Modified strings using methods like upper(), replace().
@@ -90,7 +90,7 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - String formatting using f-strings and format() method.
 - Strings are immutable and ordered collections of characters.
 
-# LEARN PYTHON : DAY 9 - Set
+# DAY 9 - Set
 - Defining Set using curly braces {}
 - Accessing Set items using loops and 'in' keyword
 - Adding items using add() and update() methods
@@ -99,15 +99,15 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Joining Sets using union(), intersection(), difference(), symmetric_difference() methods and operators
 - Set operations: union, intersection, difference, symmetric difference
 
-# LEARN PYTHON : DAY 10 - File
+# DAY 10 - File
 - Learned how to handle files in Python using the open() function with different modes such as read, append, write, and create.
 - Understood how to read from files using methods like read() and readlines(), and how to loop through file content.
 - Practiced writing to files using append and write modes, and observed the differences in behavior between them.
 
-# LEARN PYTHON : DAY 11 - Problem Solving [Part 1]
+# DAY 11 - Problem Solving [Part 1]
 - Topics: Input, Output, Comments 
 
-# LEARN PYTHON : DAY 12 - Problem Solving [Part 2]
+# DAY 12 - Problem Solving [Part 2]
 - Topics: Loops, Conditions
 - Learned how to use loops effectively to solve various problems, including counting, summing, generating multiplication tables, reversing numbers, checking for palindromes, and calculating factorials. I also learned how to handle negative numbers and leading zeros in string manipulations.
 
@@ -211,13 +211,26 @@ Test cases:<br>
 0 → 0<br>
 -456 → 15
 
-# LEARN PYTHON : DAY 13 - Project: Personal Expense Tracker
+# DAY 13 - Project: Personal Expense Tracker
 - A personal expense tracker application that allows users to add expenses with details such as amount, category, and description. The application calculates and displays the total expenses incurred and further enhanced to provide category-wise expense summaries.
 
-# LEARN PYTHON : DAY 14 - Project: Slot Machine Game
+# DAY 14 and Day 15 - Project: Slot Machine Game
 - A slot machine game implemented in Python using functions, loops, and conditional statements. The game allows users to deposit money, place bets on lines, spin the reels, and win based on matching symbols.
 Learning Objectives:
 - Practice functions and modular code
 - Practice loops and conditionals
 - Understand randomization
 - Understand basic game mechanics
+
+# DAY 16 - DAY 17 : Updates on Project Personal Expense Tracker
+
+
+# DAY 18 - 19 Problem Solving [Part 3]
+- Topics: Lists
+- Summary of the  problem solving challenges:  My hands-on practice with Python list operations through progressively challenging problems.
+-Focusing points included:
+ Iterating over lists using for and while loops.
+ Manual implementations of common operations (sum, max, reverse, duplicate, removal) without relying on built-in shortcuts
+ Handling edge cases such as empty lists, single-element lists, duplicate values, and negative numbers
+ Writing clear, readable logic and improving code structure by separating input parsing from core algorithms
+ The goal of these exercises was not just to get correct output, but to understand how list traversal and state tracking work internally.
