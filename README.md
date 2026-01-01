@@ -105,111 +105,16 @@ Topics: Range function and Loops [For Loop, While Loop with break, continue, els
 - Practiced writing to files using append and write modes, and observed the differences in behavior between them.
 
 # DAY 11 - Problem Solving [Part 1]
-- Topics: Input, Output, Comments 
+- Topics: Input, Output, Comments
+- Focused on how to take multiple input in one line.
+- Format output using sep and end parameters in print() function.
+- Used comments effectively to explain code logic.
+- Multiple line string using triple quotes.
 
 # DAY 12 - Problem Solving [Part 2]
 - Topics: Loops, Conditions
-- Learned how to use loops effectively to solve various problems, including counting, summing, generating multiplication tables, reversing numbers, checking for palindromes, and calculating factorials. I also learned how to handle negative numbers and leading zeros in string manipulations.
+- Focused on how to use loops effectively to solve various problems, including counting, summing, generating multiplication tables, reversing numbers, checking for palindromes, and calculating factorials. I also learned how to handle negative numbers and leading zeros in string manipulations.
 
-P1. Goal: Print numbers from 1 to N.<br> 
-Input: integer N<br>
-Output: numbers from 1 to N (one per line)<br>
-Constraints: N ≥ 1<br>
-
-Test cases:<br>
-5 → 1 2 3 4 5<br>
-1 → 1<br>
-3 → 1 2 3<br>
-
-P2. Goal: Print all even numbers between 1 and N.<br>
-Input: integer N<br>
-Output: even numbers ≤ N<br>
-Constraints:N ≥ 2<br>
-
-Test cases:<br>
-10 → 2 4 6 8 10<br>
-5 → 2 4<br>
-2 → 2
-
-P3. Goal: Calculate the sum of numbers from 1 to N.<br>
-Input: integer N<br>
-Output: integer sum<br>
-Constraints:N ≥ 1
-
-Test cases:<br>
-5 → 15<br>
-1 → 1<br>
-10 → 55
-
-
-P4. Goal: Print multiplication table of a number up to 10.<br>
-Input: integer N<br>
-Output: N x i = result for i = 1..10<br>
-Constraints: N between 1 and 20
-
-Test cases:<br>
-3 → 3 x 1 = 3 ... 3 x 10 = 30<br>
-5 → ...
-
-P5. Goal: Count digits in a number.<br>
-Input: integer<br>
-Output: number of digits<br>
-Constraints: Negative numbers allowed
-
-Test cases:<br>
-123 → 3<br>
-0 → 1<br>
--4567 → 4
-
-P6. Goal: Reverse a number.<br>
-Input: integer<br>
-Output: reversed integer<br>
-Constraints: No string conversion
-
-Test cases:<br>
-123 → 321<br>
-100 → 1<br>
--456 → -654<br>
-
-P7. Goal: Check if a number is a palindrome.<br>
-Input: integer<br>
-Output: "Palindrome" or "Not Palindrome"<br>
-Constraints:No string usage
-
-Test cases:<br>
-121 → Palindrome<br>
-123 → Not Palindrome<br>
-0 → Palindrome
-
-P8. Goal: Find factorial of a number.<br>
-Input: integer N<br>
-Output: factorial value<br>
-Constraints:N ≥ 0
-
-Test cases:<br>
-5 → 120<br>
-0 → 1<br>
-3 → 6
-
-P9. Goal: Print Fibonacci sequence up to N terms.
-Input: integer N<br>
-Output: first N Fibonacci numbers<br>
-Constraints:N ≥ 1<br>
-
-Test cases:<br>
-5 → 0 1 1 2 3<br>
-1 → 0<br>
-2 → 0 1
-
-P10. Goal: Find sum of digits of a number.
-Input: integer<br>
-Output: sum of digits<br>
-Constraints:No string conversion<br>
-
-Test cases:<br>
-123 → 6<br>
-0 → 0<br>
--456 → 15
 
 # DAY 13 - Project: Personal Expense Tracker
 - A personal expense tracker application that allows users to add expenses with details such as amount, category, and description. The application calculates and displays the total expenses incurred and further enhanced to provide category-wise expense summaries.
@@ -222,7 +127,7 @@ Learning Objectives:
 - Understand randomization
 - Understand basic game mechanics
 
-# DAY 16 - DAY 17 : Updates on Project Personal Expense Tracker
+# DAY 16 - 17 : Updates on Project Personal Expense Tracker
 
 
 # DAY 18 - 19 Problem Solving [Part 3]
