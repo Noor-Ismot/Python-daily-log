@@ -1,8 +1,6 @@
 """
 Project Name: Personal Expense Tracker
 ========================================================================
-Date: 21 - 25 December, 2025
-
 Objectives:
 
 Practice lists & dictionaries
@@ -71,47 +69,75 @@ def user_item():
     while True:
         expense_item = input("How many Items do you have: ")
         if expense_item.isdigit() :
-                    if int(expense_item) <= 0:
-                        print("Item number need to be larger than Zero")        
-                    else:
-                        all_expense = add_expense(int(expense_item))
-                                              
+            if int(expense_item) <= 0:
+                print("Item number need to be larger than Zero")        
+            else:
+                break
+            
         else:
-            break
-  
+            print("Please Enter a valid number:")
+    
+    all_expense = add_expense(int(expense_item))
     return all_expense
 
 
+def view_total(total_expense):
+    total = 0
+    for key in total_expense:
+        total += total_expense[key]
+    
+    return total
+
+
+
+
 def main():
-    temp_expense = []
+    temp_expense = {}
+    
     while True:
-        print("Choose One from below list:")
-        print("""
+        print(
+        """\nChoose One from below list:
         1. Add expense
         2. View total expense
         3. View expense by category
-        4. Exit"
+        4. Exit
         """)
 
         user_operation = input("Type 1/2/3/4: ")
         if user_operation == "1":
-            temp_expense += user_item() 
-            expense_per_category = view_category_expense(temp_expense)
-            print(f"Expense Per category:\n{expense_per_category}")  
-            total = view_total_expense(temp_expense)
-            print(f"Total Expense:\n{total}")   
+            all_expense = user_item()
+            expense_per_category = view_category_expense(all_expense)
+            
+            x = temp_expense.keys()
+            if expense_per_category:
+                for key in expense_per_category:
+                    
+                    if key in x:
+                        temp_expense[key] = temp_expense[key] + expense_per_category[key]
+                        
+                    else:
+                        temp_expense.update({key:expense_per_category[key]}) 
+                        
         elif user_operation == "2":
-             if len(temp_expense) == 0 :
-                  print("No Expense Found!")
-        elif user_operation == "3":
-                if len(temp_expense) == 0 :
-                  print("No Expense Found!")
-        else:
-            break
+            if len(temp_expense) == 0 :
+                    print("No Expense Found!")
+            else:
+                total = view_total(temp_expense) 
+                print(f"\nTotal Expense:{total}")
 
-    temp_expense += user_item()    
-    print("Program has been ended")         
- 
-                   
+        elif user_operation == "3":
+            if len(temp_expense) == 0 :
+                  print("No Expense Found!")
+            else:
+                print(f"\nExpense by category-")
+                for key in temp_expense:
+                    print(f"{key}:{temp_expense[key]}")
+
+        elif user_operation == "4":
+            break        
+        else:
+            print("Please select a valid numerical option(1-4)")
+               
+    print("Program has been ended")                 
 
 main()
