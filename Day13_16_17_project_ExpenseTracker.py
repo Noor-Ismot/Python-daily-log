@@ -52,7 +52,7 @@ def add_expense(item_number):
     expenses =[]   
     for i in range(item_number):
         x, y, z = input(f"For Item {i+1}, write your expense amount in dollar, category and description: ").split(", ")
-        if x.isdigit():
+        if x.isdigit() and len(y)>0 :
             x = int(x)
             y = y.lower()
             expenses.append({"Amount": x, "Category": y, "Des": z})
