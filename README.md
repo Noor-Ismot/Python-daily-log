@@ -127,7 +127,7 @@ Learning Objectives:
 - Understand randomization
 - Understand basic game mechanics
 
-# DAY 16 - 17 : Updates on Project Personal Expense Tracker
+# DAY 16 - 17 - 20 : Updates on Project Personal Expense Tracker
 
 
 # DAY 18 - 19 Problem Solving [Part 3]
@@ -139,3 +139,9 @@ Learning Objectives:
  Handling edge cases such as empty lists, single-element lists, duplicate values, and negative numbers
  Writing clear, readable logic and improving code structure by separating input parsing from core algorithms
  The goal of these exercises was not just to get correct output, but to understand how list traversal and state tracking work internally.
+
+ # DAY 21 : Error and Exception Handling
+- Topics: Errors and Exception Handling
+- Focused on different types of errors in Python, including syntax errors and exceptions.
+- Explored how to handle exceptions using try, except, else, and finally blocks.
+- Practiced raising exceptions using the raise statement.
