@@ -2,7 +2,6 @@
 #LEARN PYTHON : DAY 21
 #Topics: Error Handling
 #Resources: https://www.w3schools.com/python/python_try_except.asp
-#Date: January 3, 2026
 
 #Error handling in Python
 #Error handling is a way to respond to runtime errors in your code, allowing the program to continue its execution instead of crashing.
