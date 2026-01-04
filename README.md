@@ -145,3 +145,10 @@ Learning Objectives:
 - Focused on different types of errors in Python, including syntax errors and exceptions.
 - Explored how to handle exceptions using try, except, else, and finally blocks.
 - Practiced raising exceptions using the raise statement.
+
+# DAY 22 : Object-Oriented Programming (OOP) Basics
+- Topics: Classes and Objects
+- Learned the fundamentals of Object-Oriented Programming (OOP) in Python.
+- Created classes to define blueprints for objects, encapsulating attributes and behaviors.
+- Instantiated objects from classes and accessed their attributes and methods.
+- Concepts of encapsulation, inheritance, and polymorphism in OOP.
