@@ -19,13 +19,26 @@ User can:
 -View total expenses
 -View total per category
 
-Constraints:
--Store expenses in in files
--Amount must be a positive number 
--Category must be a non-empty string
 
 =========================================================
 """
+
+import json
+
+def save_expense(expense_per_category):
+    expense_per_category_json_str = json.dumps(expense_per_category, indent=4) 
+    with open("expense.json","w") as expense_file:
+        expense_file.write(expense_per_category_json_str)
+    return expense_per_category_json_str
+
+
+def expense_load_from_file():
+    with open("expense.json", "r") as expense_file:
+        expense_per_category = json.load(expense_file)
+        return expense_per_category
+        
+
+
 def view_category_expense(expense_list):
     expense_per_category ={}
     for expense in expense_list:
@@ -85,6 +98,8 @@ def user_item():
 
 def main():
     temp_expense = {}
+    expense_per_category_from_file = expense_load_from_file()
+    temp_expense.update(expense_per_category_from_file)
     
     while True:
         print(
@@ -100,16 +115,16 @@ def main():
             all_expense = user_item()
             expense_per_category = view_category_expense(all_expense)
             
-            x = temp_expense.keys()
+            expense_category = temp_expense.keys()
             if expense_per_category:
                 for key in expense_per_category:
-                    
-                    if key in x:
+                    if key in expense_category:
                         temp_expense[key] = temp_expense[key] + expense_per_category[key]
-                        
+                          
                     else:
                         temp_expense.update({key:expense_per_category[key]}) 
-                        
+                                
+
         elif user_operation == "2":
             if len(temp_expense) == 0 :
                     print("No Expense Found!")
@@ -117,19 +132,28 @@ def main():
                 total = view_total(temp_expense) 
                 print(f"\nTotal Expense:{total}")
 
+
         elif user_operation == "3":
-            if len(temp_expense) == 0 :
+            if len(temp_expense) == 0:
                   print("No Expense Found!")
             else:
+                print(f"\nExpense by category from session:", temp_expense)
+
+                
                 print(f"\nExpense by category-")
                 for key in temp_expense:
                     print(f"{key}:{temp_expense[key]}")
+                              
+
 
         elif user_operation == "4":
             break        
+        
         else:
             print("Please select a valid numerical option(1-4)")
-               
+
+
+    expense_per_category_from_file = save_expense(temp_expense)              
     print("Program has been ended")                 
 
 main()
