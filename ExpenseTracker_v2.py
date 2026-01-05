@@ -100,8 +100,12 @@ def user_item():
 
 def main():
     temp_expense = {}
-    expense_per_category_from_file = expense_load_from_file()
-    temp_expense.update(expense_per_category_from_file)
+    try:
+        expense_per_category_from_file = expense_load_from_file()
+        temp_expense.update(expense_per_category_from_file)
+    except FileNotFoundError:
+        with open("expense.json", "w") as file:
+            file.write("{}")
     
     while True:
         print(
