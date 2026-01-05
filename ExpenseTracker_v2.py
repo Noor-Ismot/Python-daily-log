@@ -1,26 +1,28 @@
 """
-Project Name: Personal Expense Tracker
-=========================================================
-Objectives:
+Expense Tracker Application version 2.0
+----------------------------------------
+A simple, command-line expense tracking program built in Python that helps users manage spending by category and view totals. The program uses a dictionary-based structure and saves data to a local file, ensuring your records are preserved even after closing the program.
 
-Practice lists & dictionaries
+Features
+--------------------------
+-Add Expenses: Quickly input expense amount, category, and description.
+-View Total Expense: Get a cumulative sum of all expenses.  
+-View Expenses by Category: See a breakdown of spending organized by category. 
+-Persistent Storage: Automatically saves and loads data from a json file using the JSON format.
+-Input Validation: Ensures only valid numbers and non-empty categories are accepted.  
 
-Practice user input validation
+Code Highlights
+--------------------------
+- JSON Integration: Uses the `json` module to serialize and deserialize data, allowing for permanent storage in `expense.json`.
+- Modular Logic: Separate functions for loading, saving, and calculating totals make the code clean and maintainable.
+- Error handling: Input validation ensures a smooth and error-free user experience.
 
-Practice loops and conditionals
-
-Understand data aggregation
-
----------------------------------------------------------
-Requirements:-
-
-User can:
--Add an expense (amount, category, description)
--View total expenses
--View total per category
-
-
-=========================================================
+Future Improvements
+--------------------------
+1. Visualizations: Add charts or graphs to represent spending visually.
+2. GUI Interface: Create a user-friendly graphical interface using Tkinter or PyQt.
+3. Budget alerts: Notify users when spending exceeds set limits.
+4. Date Tracking: Include timestamps for each expense to allow for weekly or monthly reports.
 """
 
 import json
@@ -123,7 +125,7 @@ def main():
                           
                     else:
                         temp_expense.update({key:expense_per_category[key]}) 
-                                
+            expense_per_category_from_file = save_expense(temp_expense)                      
 
         elif user_operation == "2":
             if len(temp_expense) == 0 :
@@ -137,23 +139,18 @@ def main():
             if len(temp_expense) == 0:
                   print("No Expense Found!")
             else:
-                print(f"\nExpense by category from session:", temp_expense)
-
-                
                 print(f"\nExpense by category-")
                 for key in temp_expense:
                     print(f"{key}:{temp_expense[key]}")
                               
-
-
         elif user_operation == "4":
             break        
         
         else:
             print("Please select a valid numerical option(1-4)")
 
-
-    expense_per_category_from_file = save_expense(temp_expense)              
+            
+                
     print("Program has been ended")                 
 
 main()
