@@ -127,7 +127,7 @@ Learning Objectives:
 - Understand randomization
 - Understand basic game mechanics
 
-# DAY 16 - 17 - 20 : Updates on Project Personal Expense Tracker
+# DAY 16- 20 : Updates on Project Personal Expense Tracker
 
 
 # DAY 18 - 19 Problem Solving [Part 3]
@@ -152,3 +152,10 @@ Learning Objectives:
 - Created classes to define blueprints for objects, encapsulating attributes and behaviors.
 - Instantiated objects from classes and accessed their attributes and methods.
 - Concepts of encapsulation, inheritance, and polymorphism in OOP.
+
+
+# DAY 23 : Modules and Packages
+- Topics: Modules and Packages
+- Learned how to organize Python code using modules and packages.
+- Created custom modules and imported them into other scripts.
+- Explored built-in modules and third-party packages to extend Python's functionality.
