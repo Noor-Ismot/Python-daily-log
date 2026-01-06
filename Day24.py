@@ -56,3 +56,4 @@ from functools import reduce
 num_list2 = [90, 3]
 result = reduce(lambda x ,y : x * y, num_list2)
 print(result)
+

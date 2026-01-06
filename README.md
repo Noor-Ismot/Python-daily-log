@@ -159,3 +159,19 @@ Learning Objectives:
 - Learned how to organize Python code using modules and packages.
 - Created custom modules and imported them into other scripts.
 - Explored built-in modules and third-party packages to extend Python's functionality.
+
+# DAY 24 : Lambda Functions
+- Topics: Lambda Functions
+- Lambda functions are small anonymous functions defined using the lambda keyword.
+- They can take any number of arguments but can only have one expression.
+- Lambda functions are often used for short, throwaway functions that are not reused elsewhere in the code.
+- They are commonly used with built-in functions like map(), filter(), and reduce() to perform operations on lists or other iterables.
+- While lambda functions are useful for simple operations, for more complex functions, it's better to use the def keyword to define a standard function.
+
+
+# DAY 25 : List Comprehensions
+- Topics: List Comprehensions
+- List comprehensions provide a concise way to create lists in Python.
+- They consist of brackets containing an expression followed by a for clause, and can include optional if clauses for filtering.
+- List comprehensions can replace traditional for loops for creating lists, making the code more readable and efficient.
+- They can also be nested to create more complex lists.
