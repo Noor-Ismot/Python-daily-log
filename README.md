@@ -41,7 +41,7 @@ It reflects my journey from basic syntax to foundational programming concepts, w
 - Loops and control flow
 - Functions, arguments, scope, and returns
 
-Focus: building correct logic and avoiding repetition.
+Focus: building correct logic and avoiding repetition.<br><br>
 
 
 
@@ -52,7 +52,7 @@ Focus: building correct logic and avoiding repetition.
 - Manual implementations of common operations
 - Understanding mutability and immutability
 
-Focus: internal behavior of collections and safe manipulation.
+Focus: internal behavior of collections and safe manipulation.<br><br>
 
 
 
@@ -63,7 +63,10 @@ Focus: internal behavior of collections and safe manipulation.
 - Manual solutions for sum, max, reverse, duplicates, factorials, palindromes
 - Explicit handling of edge cases (empty inputs, negatives, duplicates)
 
-Focus: clarity of logic over clever shortcuts.
+Focus: clarity of logic over clever shortcuts.<br><br>
+
+
+
 
 ### How to design or structure a small project
 **Days 13-14**
@@ -73,6 +76,7 @@ Slot Machine Game Project(Followed a YouTube tutorial)
   - Code structuring
   - Function decomposition
   - Game loop design
+Focus: learning project design patterns and structuring code effectively.<br><br>
 
 
 ### File Handling & Error Management
@@ -81,7 +85,7 @@ Slot Machine Game Project(Followed a YouTube tutorial)
 - Using try/except/else/finally blocks
 - Raising exceptions for invalid states
 
-Focus: writing safer, more predictable programs.
+Focus: writing safer, more predictable programs. <br><br>
 
 
 ### Design & Advanced Concepts
@@ -91,51 +95,20 @@ Focus: writing safer, more predictable programs.
 - Modules and packages
 - Lambda functions and list comprehensions
 
-Focus: organizing code for readability and reuse.
+Focus: organizing code for readability and reuse.<br><br>
 
 
 
-## Highlighted Project: Personal Expense Tracker (Two Versions)
+## Highlighted Project: Personal Expense Tracker
+A console-based personal expense tracker implemented in two versions to demonstrate learning progression.
+### Version 1 – Learning & Iteration
+**Focus:** Core Python logic, dictionary-based aggregation, reusable functions.
 
-### Version 1 — Learning & Iteration (Within This Repository)
-A simple, interactive command-line expense tracker built as part of foundational practice.
-
-**Key Characteristics**
-- Dictionary-based storage for category-wise expense aggregation
-- Continuous runtime session tracking
-- Menu-driven user interaction
-- Input validation for numeric amounts and non-empty categories
-
-**What This Version Demonstrates**
-- Core control flow and data structure usage
-- Reusable function design
-- Manual aggregation logic
-- Early-stage error handling
-
-This version primarily served as a **sandbox** to experiment with logic, structure, and refactoring opportunities.
+### Version 2 – Refactored & Persistent
+**Focus:** Data persistence, cleaner structure, improved error handling.
 
 
-
-### Version 2 — Refactored & Persistent Storage
-An improved and more production-oriented version of the Expense Tracker. It demonstrates better structure, maintainability, and real-world usability.
-
-**Enhancements Over Version 1**
-- Persistent storage using JSON file
-- Load/save of expense data across sessions
-- Cleaner separation of responsibilities
-- Improved error handling and input validation
-- Simplified total calculations using built-in operations where appropriate
-
-
-## Code Quality Principles Followed
-- Descriptive variable and function naming
-- Separation of input handling from core logic
-- Avoidance of unnecessary global state
-- Explicit handling of invalid inputs and edge cases
-- Preference for readability over dense one-liners
-
-
-## Expense Tracker – Version Comparison
+## Expense Tracker – Evolution Overview
 
 | Aspect | Version 1 (Learning Version) | Version 2 (Final Version) |
 |------|-----------------------------|---------------------------|
@@ -151,10 +124,11 @@ An improved and more production-oriented version of the Expense Tracker. It demo
 
 ---
 
+
 ## Final Version Repository
 The refactored and persistent version of the Expense Tracker is maintained here:
 
-🔗 **Expense Tracker (Version 2 – Final):**  
+🔗 **Expense Tracker (Final version):**  
 https://github.com/Noor-Ismot/Expense-Tracker
 
 
