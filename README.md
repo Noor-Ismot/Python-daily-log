@@ -1,20 +1,8 @@
-# Python Fundamentals & Problem-Solving Practice
-
-## Overview
-This repository showcases my structured practice of Python fundamentals through hands-on coding, problem-solving exercises, projects and iterative improvements.
-
-## What This Repository Demonstrates
-- Strong grasp of Python core concepts and syntax
-- Problem-solving using loops, conditions, and data structures
-- Functional decomposition and modular thinking
-- Defensive programming through error and exception handling
-- Early object-oriented design principles
-- A learning mindset focused on understanding *why* code works
-
-It reflects my journey from basic syntax to foundational programming concepts, with a focus on clarity, correctness, and gradual enhancement.
+# Overview
+This repository showcases my regular structured practice of Python fundamentals through hands-on coding, problem-solving exercises, projects and iterative improvements.
 
 
-## Approach
+## Resources & Approach
 - **Primary learning resource:** W3Schools (Python documentation and exercises)
 - Many problem-solving tasks were **AI-generated challenges**, solved independently
 - When stuck, additional references (documentation, articles, examples) were consulted
@@ -23,13 +11,6 @@ It reflects my journey from basic syntax to foundational programming concepts, w
   - Compare alternative solutions
   - Improve understanding and refactor logic
   - The Slot Machine project followed a YouTube tutorial specifically to learn code structuring patterns.
-
-
-## How to Navigate This Repository
-- Files are organized as daily practice scripts, each focusing on a specific concept or problem set
-- Earlier files reflect foundational learning; later files show improved structure and clarity
-- Code is commented to explain reasoning, not just syntax
-- Some problems are intentionally implemented without shortcuts to strengthen logical thinking
 
 
 ## Milestones 
@@ -41,7 +22,7 @@ It reflects my journey from basic syntax to foundational programming concepts, w
 - Loops and control flow
 - Functions, arguments, scope, and returns
 
-Focus: building correct logic and avoiding repetition.<br><br>
+Focus: building correct logic and avoiding repetition.<br><br><br>
 
 
 
@@ -52,7 +33,7 @@ Focus: building correct logic and avoiding repetition.<br><br>
 - Manual implementations of common operations
 - Understanding mutability and immutability
 
-Focus: internal behavior of collections and safe manipulation.<br><br>
+Focus: internal behavior of collections and safe manipulation.<br><br><br>
 
 
 
@@ -63,7 +44,7 @@ Focus: internal behavior of collections and safe manipulation.<br><br>
 - Manual solutions for sum, max, reverse, duplicates, factorials, palindromes
 - Explicit handling of edge cases (empty inputs, negatives, duplicates)
 
-Focus: clarity of logic over clever shortcuts.<br><br>
+Focus: clarity of logic over clever shortcuts.<br><br><br>
 
 
 
@@ -76,7 +57,8 @@ Slot Machine Game Project(Followed a YouTube tutorial)
   - Code structuring
   - Function decomposition
   - Game loop design
-Focus: learning project design patterns and structuring code effectively.<br><br>
+Focus: learning project design patterns and structuring code effectively.<br><br><br>
+
 
 
 ### File Handling & Error Management
@@ -85,7 +67,8 @@ Focus: learning project design patterns and structuring code effectively.<br><br
 - Using try/except/else/finally blocks
 - Raising exceptions for invalid states
 
-Focus: writing safer, more predictable programs. <br><br>
+Focus: writing safer, more predictable programs. <br><br><br>
+
 
 
 ### Design & Advanced Concepts
@@ -95,7 +78,7 @@ Focus: writing safer, more predictable programs. <br><br>
 - Modules and packages
 - Lambda functions and list comprehensions
 
-Focus: organizing code for readability and reuse.<br><br>
+Focus: organizing code for readability and reuse.<br><br><br>
 
 
 
@@ -110,7 +93,7 @@ A console-based personal expense tracker implemented in two versions to demonstr
 
 ## Expense Tracker – Evolution Overview
 
-| Aspect | Version 1 (Learning Version) | Version 2 (Final Version) |
+| Aspect | Version 1  | Version 2 |
 |------|-----------------------------|---------------------------|
 | Purpose | Practice core Python logic and problem-solving | Refactored, more production-ready implementation |
 | Storage | In-memory (runtime only) | Persistent storage using JSON file |
