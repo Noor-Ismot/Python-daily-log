@@ -47,20 +47,12 @@ def view_category_expense(expense_list):
             category = expense["category"]
             amount = expense["amount"]
             if category in expense_per_category:
-                expense_per_category.update({category:expense_per_category[category] + amount})
-             
-            else:
-                expense_per_category.update({category:amount})                         
+                expense_per_category.update({category:expense_per_category[category] + amount})  
+            else: 
+                expense_per_category.update({category:amount})
+
+                                     
     return expense_per_category
-
-
-def view_total(total_expense):
-    total = 0
-    for key in total_expense:
-        total += total_expense[key]
-    
-    return total
-
 
 
 def add_expense(item_number):   
@@ -81,18 +73,17 @@ def add_expense(item_number):
 
 
 def user_item():
-    while True:
-        expense_item = input("How many Items do you have: ")
-        if expense_item.isdigit() :
-            if int(expense_item) <= 0:
-                print("Item number need to be larger than Zero")        
+    while True:       
+        try: 
+            expense_item = int(input("How many Items do you have: "))
+            if  expense_item <= 0:
+                    print("Item number need to be larger than Zero")        
             else:
-                break
-            
-        else:
+                break    
+        except ValueError:
             print("Please Enter a valid number:")
     
-    all_expense = add_expense(int(expense_item))
+    all_expense = add_expense(expense_item)
     return all_expense
 
 
@@ -135,7 +126,7 @@ def main():
             if len(temp_expense) == 0 :
                     print("No Expense Found!")
             else:
-                total = view_total(temp_expense) 
+                total = sum(temp_expense.values()) 
                 print(f"\nTotal Expense:{total}")
 
 
