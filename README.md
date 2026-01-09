@@ -93,7 +93,7 @@ A console-based personal expense tracker implemented in two versions to demonstr
 
 ## Expense Tracker – Evolution Overview
 
-| Aspect | Version 1  | Version 2 |
+| Aspect | ([Version 1](https://github.com/Noor-Ismot/Python-daily-log/blob/main/ExpenseTracker_v1.py))  | ([Version 2](https://github.com/Noor-Ismot/Python-daily-log/blob/main/ExpenseTracker_v2.py)) |
 |------|-----------------------------|---------------------------|
 | Purpose | Practice core Python logic and problem-solving | Refactored, more production-ready implementation |
 | Storage | In-memory (runtime only) | Persistent storage using JSON file |
