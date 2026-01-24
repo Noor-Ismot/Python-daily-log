@@ -85,8 +85,8 @@ Focus: organizing code for readability and reuse.<br><br>
 
 **Days 25-30**
 
-- Certificate
-("![IntroToPythonForDevelopers.png](https://github.com/Noor-Ismot/Python-daily-log/blob/main/IntroToPythonForDevelopers.png)")
+- Certificate <br><br>
+![IntroToPythonForDevelopers.png](https://github.com/Noor-Ismot/Python-daily-log/blob/main/IntroToPythonForDevelopers.png)
 <br><br><br>
 
 ## Highlighted Project: Personal Expense Tracker
