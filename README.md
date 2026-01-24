@@ -79,17 +79,14 @@ Focus: writing safer, more predictable programs. <br><br><br>
 - Modules and packages
 - Lambda functions and list comprehensions
 
-Focus: organizing code for readability and reuse.<br><br><br>
+Focus: organizing code for readability and reuse.<br><br>
 
-### Course Completion
+### Datacamp Course : Introduction to Python for Developers
 
 **Days 25-30**
 
-- Name: Introduction to Python for Developers
-- Institution: Datacamp
 - Certificate
-![Certificate]("IntroToPythonForDevelopers.png")
-Link: <https://www.datacamp.com/completed/statement-of-accomplishment/course/eb444be33de3cd38b4dd63f5e2e6a49656fe1e4e>
+("![IntroToPythonForDevelopers.png](https://github.com/Noor-Ismot/Python-daily-log/blob/main/IntroToPythonForDevelopers.png)")
 <br><br><br>
 
 ## Highlighted Project: Personal Expense Tracker
