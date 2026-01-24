@@ -1,4 +1,4 @@
-#LEARN PYTHON : DAY 27
+#LEARN PYTHON : DAY 26
 #Topics: JSON File handling
 #Resources: 
 # https://www.w3schools.com/python/python_json.asp
