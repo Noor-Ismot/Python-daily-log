@@ -1,8 +1,9 @@
 # Overview
+
 This repository showcases my regular structured practice of Python fundamentals through hands-on coding, problem-solving exercises, projects and iterative improvements.
 
-
 ## Resources & Approach
+
 - **Primary learning resource:** W3Schools (Python documentation and exercises)
 - Many problem-solving tasks were **AI-generated challenges**, solved independently
 - When stuck, additional references (documentation, articles, examples) were consulted
@@ -12,11 +13,12 @@ This repository showcases my regular structured practice of Python fundamentals 
   - Improve understanding and refactor logic
   - The Slot Machine project followed a YouTube tutorial specifically to learn code structuring patterns.
 
-
-## Milestones 
+## Milestones
 
 ### Core Python Foundations
+
 **Days 1–5**
+
 - Variables, data types, type casting
 - Conditions and logical operators
 - Loops and control flow
@@ -24,10 +26,10 @@ This repository showcases my regular structured practice of Python fundamentals 
 
 Focus: building correct logic and avoiding repetition.<br><br><br>
 
-
-
 ### Data Structures & Collections
+
 **Days 2–3, 6–9**
+
 - Lists, tuples, sets, dictionaries, and strings
 - Iteration techniques (for, while, comprehensions)
 - Manual implementations of common operations
@@ -35,10 +37,10 @@ Focus: building correct logic and avoiding repetition.<br><br><br>
 
 Focus: internal behavior of collections and safe manipulation.<br><br><br>
 
-
-
 ### Problem Solving & Logical Thinking
+
 **Days 11–12, 18–19**
+
 - Input/output handling
 - Loop- and condition-based challenges
 - Manual solutions for sum, max, reverse, duplicates, factorials, palindromes
@@ -46,12 +48,11 @@ Focus: internal behavior of collections and safe manipulation.<br><br><br>
 
 Focus: clarity of logic over clever shortcuts.<br><br><br>
 
-
-
-
 ### How to design or structure a small project
+
 **Days 13-14**
 Slot Machine Game Project(Followed a YouTube tutorial)
+
 - Console-based Python game
 - Built by following a guided YouTube tutorial to understand:
   - Code structuring
@@ -59,20 +60,20 @@ Slot Machine Game Project(Followed a YouTube tutorial)
   - Game loop design
 Focus: learning project design patterns and structuring code effectively.<br><br><br>
 
-
-
 ### File Handling & Error Management
+
 **Days 10 & 21**
+
 - Reading and writing files safely
 - Using try/except/else/finally blocks
 - Raising exceptions for invalid states
 
 Focus: writing safer, more predictable programs. <br><br><br>
 
-
-
 ### Design & Advanced Concepts
+
 **Days 22–25**
+
 - Object-Oriented Programming fundamentals
 - Classes, objects, encapsulation
 - Modules and packages
@@ -80,16 +81,28 @@ Focus: writing safer, more predictable programs. <br><br><br>
 
 Focus: organizing code for readability and reuse.<br><br><br>
 
+### Course Completion
 
+**Days 25-30**
+
+- Name: Introduction to Python for Developers
+- Institution: Datacamp
+- Certificate
+![Certificate]("IntroToPythonForDevelopers.png")
+Link: <https://www.datacamp.com/completed/statement-of-accomplishment/course/eb444be33de3cd38b4dd63f5e2e6a49656fe1e4e>
+<br><br><br>
 
 ## Highlighted Project: Personal Expense Tracker
+
 A console-based personal expense tracker implemented in two versions to demonstrate learning progression.
+
 ### Version 1 – Learning & Iteration
+
 **Focus:** Core Python logic, dictionary-based aggregation, reusable functions.
 
 ### Version 2 – Refactored & Persistent
-**Focus:** Data persistence, cleaner structure, improved error handling.
 
+**Focus:** Data persistence, cleaner structure, improved error handling.
 
 ## Expense Tracker – Evolution Overview
 
@@ -107,21 +120,9 @@ A console-based personal expense tracker implemented in two versions to demonstr
 
 ---
 
-
 ## Final Version Repository
+
 The refactored and persistent version of the Expense Tracker is maintained here:
 
 🔗 **Expense Tracker (Final version):**  
-https://github.com/Noor-Ismot/Expense-Tracker
-
-
-
-
-
-
-
-
-
-
-
-
+<https://github.com/Noor-Ismot/Expense-Tracker>
