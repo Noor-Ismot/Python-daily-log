@@ -89,7 +89,37 @@ Focus: organizing code for readability and reuse.<br><br>
 ![IntroToPythonForDevelopers.png](https://github.com/Noor-Ismot/Python-daily-log/blob/main/IntroToPythonForDevelopers.png)
 <br><br><br>
 
-## Highlighted Project: Personal Expense Tracker
+# Project : Word Frequency Analyzer
+
+A simple **Python command-line tool** that analyzes a text passage and calculates the frequency of each word. It also identifies the **most frequently used word**, helping demonstrate text preprocessing, dictionary usage, and basic algorithmic thinking.
+
+## Features
+
+- Converts text to lowercase for consistent analysis  
+- Removes common punctuation marks  
+- Splits text into individual words  
+- Calculates word frequency  
+- Identifies the most frequent word in the passage  
+- Handles empty input gracefully  
+
+## Code Highlights
+
+- **Text normalization:** Ensures accurate word comparison
+- **Dictionary-based counting:** Uses Python dictionaries for frequency tracking
+- **Clear function separation:** Improves readability and maintainability
+- **Edge case handling:** Detects and handles empty input
+
+## How It Works
+
+1. User inputs a paragraph of text.
+2. The program:
+   - Normalizes the text
+   - Removes punctuation
+   - Splits the passage into words
+3. Each word’s frequency is calculated and displayed.
+4. The most frequently occurring word is displayed.
+
+## Project: Personal Expense Tracker
 
 A console-based personal expense tracker implemented in two versions to demonstrate learning progression.
 
