@@ -118,6 +118,7 @@ A simple **Python command-line tool** that analyzes a text passage and calculate
    - Splits the passage into words
 3. Each word’s frequency is calculated and displayed.
 4. The most frequently occurring word is displayed.
+<br><br>
 
 ## Project: Personal Expense Tracker
 
