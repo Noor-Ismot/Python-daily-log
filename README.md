@@ -89,7 +89,7 @@ Focus: organizing code for readability and reuse.<br><br>
 ![IntroToPythonForDevelopers.png](https://github.com/Noor-Ismot/Python-daily-log/blob/main/IntroToPythonForDevelopers.png)
 <br><br><br>
 
-# Project : Word Frequency Analyzer
+## Project : Word Frequency Analyzer
 
 A simple **Python command-line tool** that analyzes a text passage and calculates the frequency of each word. It also identifies the **most frequently used word**, helping demonstrate text preprocessing, dictionary usage, and basic algorithmic thinking.
 
